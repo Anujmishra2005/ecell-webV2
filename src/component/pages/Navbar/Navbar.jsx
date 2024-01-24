@@ -166,40 +166,6 @@ function Navbar() {
                 Gallery
               </Link>
           </motion.li>
-          {/* <motion.li
-            className="nav-item"
-            initial={{ opacity: 0.6 }}
-            whileHover={{
-              scale: 1.2,
-              transition: { duration: 0.5 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            whileInView={{ opacity: 1 }}
-          >
-              <Link to='/contactus' 
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Up Comming Events
-              </Link>
-          </motion.li>
-          <motion.li
-            className="nav-item"
-            initial={{ opacity: 0.6 }}
-            whileHover={{
-              scale: 1.2,
-              transition: { duration: 0.5 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            whileInView={{ opacity: 1 }}
-          >
-              <Link to='/' 
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              recruitments Comming soon!
-              </Link>
-          </motion.li> */}
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -217,6 +183,58 @@ function Navbar() {
               Get in Touch
               </Link>
           </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='https://anujmishra2005.github.io/CCC-Web/' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Creators Campus Connect (Coming Soon)
+              </Link>
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='/achievements' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Achievements
+              </Link>
+          </motion.li>
+          {/* <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='/' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              recruitments Comming soon!
+              </Link>
+          </motion.li>  */}
+          
           
         </ul>
         <div className="menu-icon" onClick={handleClick}>
